@@ -1,0 +1,11 @@
+{
+  "background_color": "#FFF",
+  "display": "standalone",
+  "name": "madrid",
+  "short_name": "madrid",
+  "version": "xdk.intel.cordova.template.lite",
+  "description": "Universal init code for Intel XDK and Cordova device ready detection, as well as within browser.",
+  "author": "Intel XDK",
+  "icons": [],
+  "start_url": "index.html"
+}

@@ -68,4 +68,7 @@
 <config-file platform="android" parent="/manifest/application" mode="merge"> 
     <activity android:launchMode="singleTop" />
 </config-file>
+
+
+
 </widget>
