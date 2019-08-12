@@ -17,9 +17,14 @@
       },
       "undefined": {
         "parents": {
-          "/manifest/application": [
+          "/manifest/application": []
+        }
+      },
+      "res/xml/config.xml": {
+        "parents": {
+          "/*": [
             {
-              "xml": "<activity android:launchMode=\"singleTop\" />",
+              "xml": "<preference name=\"android-minSdkVersion\" value=\"15\" />",
               "count": 1,
               "id": "config.xml"
             }
@@ -60,6 +65,12 @@
       "PACKAGE_NAME": "io.cordova.hellocordova"
     },
     "cordova-plugin-admob-free": {
+      "PACKAGE_NAME": "io.cordova.hellocordova"
+    },
+    "pushwoosh-cordova-plugin": {
+      "LOG_LEVEL": "DEBUG",
+      "IOS_FOREGROUND_ALERT_TYPE": "NONE",
+      "ANDROID_FOREGROUND_PUSH": "false",
       "PACKAGE_NAME": "io.cordova.hellocordova"
     }
   },
@@ -137,6 +148,14 @@
         "AdMob",
         "plugins.AdMob"
       ]
+    },
+    {
+      "file": "plugins/pushwoosh-cordova-plugin/www/PushNotification.js",
+      "id": "pushwoosh-cordova-plugin.PushNotification",
+      "pluginId": "pushwoosh-cordova-plugin",
+      "clobbers": [
+        "plugins.pushNotification"
+      ]
     }
   ],
   "plugin_metadata": {
@@ -150,6 +169,7 @@
     "cordova-plugin-whitelist": "1.2.2",
     "cordova-promise-polyfill": "0.0.2",
     "cordova-admob-sdk": "0.24.1",
-    "cordova-plugin-admob-free": "0.27.0"
+    "cordova-plugin-admob-free": "0.27.0",
+    "pushwoosh-cordova-plugin": "7.17.1"
   }
 }

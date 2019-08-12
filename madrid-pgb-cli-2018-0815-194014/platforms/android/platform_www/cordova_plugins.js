@@ -66,6 +66,14 @@ cordova.define('cordova/plugin_list', function(require, exports, module) {
         "AdMob",
         "plugins.AdMob"
       ]
+    },
+    {
+      "id": "pushwoosh-cordova-plugin.PushNotification",
+      "file": "plugins/pushwoosh-cordova-plugin/www/PushNotification.js",
+      "pluginId": "pushwoosh-cordova-plugin",
+      "clobbers": [
+        "plugins.pushNotification"
+      ]
     }
   ];
   module.exports.metadata = {
@@ -79,6 +87,8 @@ cordova.define('cordova/plugin_list', function(require, exports, module) {
     "cordova-plugin-whitelist": "1.2.2",
     "cordova-promise-polyfill": "0.0.2",
     "cordova-admob-sdk": "0.24.1",
-    "cordova-plugin-admob-free": "0.27.0"
+    "cordova-plugin-admob-free": "0.27.0",
+    "cordova-support-google-services": "1.2.1",
+    "pushwoosh-cordova-plugin": "7.17.1"
   };
 });

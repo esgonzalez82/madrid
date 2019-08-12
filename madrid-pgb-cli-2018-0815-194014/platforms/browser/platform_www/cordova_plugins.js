@@ -72,6 +72,14 @@ module.exports = [
             "AdMob",
             "plugins.AdMob"
         ]
+    },
+    {
+        "file": "plugins/pushwoosh-cordova-plugin/www/PushNotification.js",
+        "id": "pushwoosh-cordova-plugin.PushNotification",
+        "pluginId": "pushwoosh-cordova-plugin",
+        "clobbers": [
+            "plugins.pushNotification"
+        ]
     }
 ];
 module.exports.metadata = 
@@ -87,7 +95,8 @@ module.exports.metadata =
     "cordova-plugin-whitelist": "1.2.2",
     "cordova-promise-polyfill": "0.0.2",
     "cordova-admob-sdk": "0.24.1",
-    "cordova-plugin-admob-free": "0.27.0"
+    "cordova-plugin-admob-free": "0.27.0",
+    "pushwoosh-cordova-plugin": "7.17.1"
 }
 // BOTTOM OF METADATA
 });

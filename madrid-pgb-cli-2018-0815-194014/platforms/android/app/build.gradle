@@ -91,6 +91,7 @@ ext {
 
 // PLUGIN GRADLE EXTENSIONS START
 apply from: "../cordova-plugin-extension/lite-rjfun-libs.gradle"
+apply from: "../cordova-support-google-services/lite-build.gradle"
 // PLUGIN GRADLE EXTENSIONS END
 
 def hasBuildExtras1 = file('build-extras.gradle').exists()
@@ -270,6 +271,20 @@ dependencies {
     implementation "com.google.android.gms:play-services-ads:+"
     implementation "com.google.android.gms:play-services-base:11.0.4"
     implementation "com.google.android.gms:play-services-ads:11.0.4"
+    implementation "com.google.firebase:firebase-core:(+,17.0.0)"
+    implementation "com.google.firebase:firebase-messaging:(+,19.0.0)"
+    implementation "com.android.support:support-v4:27.+"
+    implementation "com.android.support:appcompat-v7:27.+"
+    implementation "com.android.support:recyclerview-v7:27.+"
+    implementation "com.android.support:design:27.+"
+    implementation "com.android.support.constraint:constraint-layout:1.0.2"
+    implementation "com.github.bumptech.glide:glide:4.7.1"
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jre7:1.1.60"
+    implementation "com.pushwoosh:pushwoosh:5.17.2"
+    implementation "com.pushwoosh:pushwoosh-amazon:5.17.2"
+    implementation "com.pushwoosh:pushwoosh-badge:5.17.2"
+    implementation "com.pushwoosh:pushwoosh-inbox:5.17.2"
+    implementation "com.pushwoosh:pushwoosh-inbox-ui:5.17.2"
     // SUB-PROJECT DEPENDENCIES END
 }
 

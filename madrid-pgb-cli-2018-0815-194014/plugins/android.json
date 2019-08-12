@@ -32,6 +32,12 @@
       "ADMOB_APP_ID": "<ca-app-pub-3271517829402579/7796430642>",
       "PLAY_SERVICES_VERSION": "11.0.4",
       "PACKAGE_NAME": "xdk.intel.cordova.template.lite"
+    },
+    "pushwoosh-cordova-plugin": {
+      "LOG_LEVEL": "DEBUG",
+      "IOS_FOREGROUND_ALERT_TYPE": "NONE",
+      "ANDROID_FOREGROUND_PUSH": "false",
+      "PACKAGE_NAME": "xdk.intel.cordova.template.lite"
     }
   },
   "dependent_plugins": {
@@ -43,6 +49,9 @@
     },
     "cordova-admob-sdk": {
       "PLAY_SERVICES_VERSION": "11.0.4",
+      "PACKAGE_NAME": "xdk.intel.cordova.template.lite"
+    },
+    "cordova-support-google-services": {
       "PACKAGE_NAME": "xdk.intel.cordova.template.lite"
     }
   }

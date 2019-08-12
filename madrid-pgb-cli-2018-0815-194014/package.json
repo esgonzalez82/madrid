@@ -19,8 +19,11 @@
       "cordova-plugin-admobpro": {},
       "cordova-plugin-extension": {},
       "cordova-plugin-whitelist": {},
-      "cordova-plugin-admob-free": {
-        "ADMOB_APP_ID": "<ca-app-pub-3271517829402579/7796430642>"
+      "cordova-plugin-admob-free": {},
+      "pushwoosh-cordova-plugin": {
+        "LOG_LEVEL": "DEBUG",
+        "IOS_FOREGROUND_ALERT_TYPE": "NONE",
+        "ANDROID_FOREGROUND_PUSH": "false"
       }
     },
     "platforms": [
@@ -33,6 +36,8 @@
     "cordova-android": "^8.0.0",
     "cordova-browser": "^6.0.0",
     "cordova-plugin-admob-free": "0.27.0",
-    "cordova-promise-polyfill": "0.0.2"
+    "cordova-promise-polyfill": "0.0.2",
+    "cordova-support-google-services": "^1.2.1",
+    "pushwoosh-cordova-plugin": "^7.17.1"
   }
 }
